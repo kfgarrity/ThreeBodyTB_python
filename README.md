@@ -41,3 +41,4 @@ Example usage :
 
 
 For main documentation of ThreeBodyTB.jl, see [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://kfgarrity.github.io/ThreeBodyTB.jl/dev/)
+This code is only the wrapper that downloads and installs that code.
