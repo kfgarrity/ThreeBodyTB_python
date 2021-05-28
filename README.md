@@ -42,3 +42,14 @@ Example usage :
 
 For main documentation of ThreeBodyTB.jl, see [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://kfgarrity.github.io/ThreeBodyTB.jl/dev/)
 This code is only the wrapper that downloads and installs that code.
+
+# Performance Tips
+
+Julia can take advantage multiple threads. Try setting the environment variable:
+
+    JULIA_NUM_THREADS=8
+    export JULIA_NUM_THREADS
+
+as appropriate for your machine.
+
+
