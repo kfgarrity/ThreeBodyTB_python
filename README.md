@@ -45,15 +45,15 @@ This code is only the wrapper that downloads and installs that code.
 
 ## Performance Tips
 
--Julia can take advantage multiple threads. Try setting the environment variable:
+- Julia can take advantage multiple threads. Try setting the environment variable:
 
     JULIA_NUM_THREADS=8
     export JULIA_NUM_THREADS
 
 as appropriate for your machine.
 
--Note that despite using pre-compilation where possible, some
+- Note that despite using pre-compilation where possible, some
 functions will run faster the second time you run them due to the jit.
 
--Note that you must delete the system image if you want to
+- Note that you must delete the system image if you want to
 update the ThreeBodyTB.jl code and re-run the installation.
