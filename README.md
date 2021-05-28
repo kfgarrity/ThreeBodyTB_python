@@ -17,11 +17,15 @@ Julia knowledge run the code using the
 
 1) Clone this distribution.
 
+    ```
     git clone https://github.com/kfgarrity/ThreeBodyTB_python.git
-
+    ```
+    
 2) Run the installation
 
+    ```
     python3 install.py
+    ```
 
 Note that this can take a while and may use significant disk space. The code
 will, if necessary, a) download & install Julia b) download & install
