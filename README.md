@@ -3,7 +3,7 @@
 by Kevin F. Garrity
 
 This is a python wrapper for the
-[ThreeBodyTB.jl](http://github.com/kfgarrity/ThreeBodyTB.jl) Julia
+[ThreeBodyTB.jl](http://github.com/usnistgov/ThreeBodyTB.jl) Julia
 package, which runs two- and three-body tight-binding calculations for
 materials.
 
@@ -44,7 +44,7 @@ Example usage :
     >>> energy, tbc, flag = TB3.jl.scf_energy(c)
 
 
-For main documentation of ThreeBodyTB.jl, see [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://kfgarrity.github.io/ThreeBodyTB.jl/dev/)
+For main documentation of ThreeBodyTB.jl, see [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://pages.nist.gov/ThreeBodyTB.jl/)
 This code is only the wrapper that downloads and installs that code.
 
 ## Performance Tips

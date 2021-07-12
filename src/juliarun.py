@@ -36,7 +36,9 @@ def install(julia=None):
     if julia is None:
         julia = "julia" # julia command
     print("install ", julia)
-    os.system(julia+" --eval "+"\"import Pkg; Pkg.add(url=\\\"https://github.com/kfgarrity/ThreeBodyTB.jl\\\")\"")
+#    os.system(julia+" --eval "+"\"import Pkg; Pkg.add(url=\\\"https://github.com/kfgarrity/ThreeBodyTB.jl\\\")\"")
+
+    os.system(julia+" --eval "+"\"import Pkg; Pkg.add(\\\"ThreeBodyTB\\\")\"")
     os.system(julia+" --eval "+"\"import Pkg; Pkg.add(\\\"PyCall\\\")\"")
     os.system(julia+" --eval "+"\"import Pkg; Pkg.add(\\\"Plots\\\")\"")
     os.system(julia+" --eval "+"\"import Pkg; Pkg.add(\\\"Suppressor\\\")\"")
